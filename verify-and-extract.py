@@ -1,7 +1,7 @@
 from pathlib import Path
 import zipfile,hashlib,re
 archive=Path('growth-ms-public-site.zip')
-assert hashlib.sha256(archive.read_bytes()).hexdigest()=='91432be5158a599ff433dd6bf5822d08e09591e3f09d6fbb02d4ed03717fa27b','Archive checksum mismatch'
+assert hashlib.sha256(archive.read_bytes()).hexdigest()=='475cb30a5413dcf4ff06cf0746de40464eda631486bce222873327d84964dde1','Archive checksum mismatch'
 with zipfile.ZipFile(archive) as z:
     assert sorted(z.namelist())==sorted(['.nojekyll', '404.html', 'assets/css/site.css', 'assets/images/clients.webp', 'assets/images/crm.webp', 'assets/images/dashboard-small.webp', 'assets/images/dashboard.webp', 'assets/images/growth-ms-logo.jpeg', 'assets/images/help.webp', 'assets/images/marketing.webp', 'assets/images/money.webp', 'assets/images/og.png', 'assets/images/projects.webp', 'assets/images/start.webp', 'assets/js/config.js', 'assets/js/site.js', 'CNAME', 'index.html', 'privacy/index.html', 'refund-policy/index.html', 'robots.txt', 'sitemap.xml', 'solo-business-os/cancel/index.html', 'solo-business-os/index.html', 'solo-business-os/success/index.html', 'terms/index.html']),'Unexpected public artifact files'
     for entry in z.infolist():
