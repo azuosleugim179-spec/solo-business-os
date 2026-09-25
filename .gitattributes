@@ -1,0 +1,3 @@
+# Preserve public source bytes across operating systems.
+site/** -text
+*.zip -text
