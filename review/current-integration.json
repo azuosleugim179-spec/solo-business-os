@@ -1,0 +1,35 @@
+{
+  "baseMain": "a96db9db24ba17ace695c4cdbdd3d25d65f4fae3",
+  "publicFiles": 46,
+  "localHTTP": {
+    "/": 200,
+    "/clientops/": 200,
+    "/solo-business-os/": 200,
+    "/solo-business-os/success/": 200,
+    "/solo-business-os/cancel/": 200,
+    "/privacy/": 200,
+    "/terms/": 200,
+    "/refund-policy/": 200,
+    "/support/": 200
+  },
+  "productionModified": false,
+  "clientOpsBytePreserved": true,
+  "clientOpsCTAs": [
+    "https://buy.stripe.com/cNiaEZ5BEdYG1uz2KI6Ri01",
+    "https://buy.stripe.com/cNiaEZ5BEdYG1uz2KI6Ri01",
+    "https://buy.stripe.com/cNiaEZ5BEdYG1uz2KI6Ri01",
+    "https://buy.stripe.com/cNiaEZ5BEdYG1uz2KI6Ri01"
+  ],
+  "soloCTAs": [
+    "https://buy.stripe.com/9B6eVf9RU5sa6OTbhe6Ri00",
+    "https://buy.stripe.com/9B6eVf9RU5sa6OTbhe6Ri00",
+    "https://buy.stripe.com/9B6eVf9RU5sa6OTbhe6Ri00",
+    "https://buy.stripe.com/9B6eVf9RU5sa6OTbhe6Ri00",
+    "https://buy.stripe.com/9B6eVf9RU5sa6OTbhe6Ri00"
+  ],
+  "authenticScreenshotCount": 7,
+  "soloVisualBehaviorFilesUnchanged": true,
+  "newRefundPolicy": "verified; no voluntary period; mandatory rights preserved",
+  "support": "support@growthms.dev",
+  "fulfillment": "NOT proven end-to-end; separate launch gate after landing deployment"
+}

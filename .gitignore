@@ -11,3 +11,4 @@ paid-product/
 *.log
 *backup*.json
 dist/
+_site/
