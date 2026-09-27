@@ -1,0 +1,7 @@
+#measurement-choice[hidden]{display:none}
+#measurement-choice{position:fixed;z-index:100;bottom:16px;left:16px;right:16px;max-width:440px;padding:20px;background:#fff;color:#172d27;border:1px solid #b4bfb8;border-radius:8px;box-shadow:0 4px 30px #0003;font:14px/1.5 system-ui}
+#measurement-choice p{margin:8px 0}
+#measurement-choice button{padding:10px 18px;margin:8px 8px 0 0;border:1px solid #172d27;border-radius:4px;cursor:pointer}
+#measurement-choice button:disabled{opacity:.5;cursor:default}
+#measurement-choice a,[data-measurement-choices]{text-decoration:underline;text-underline-offset:3px}
+[data-measurement-choices]{font:inherit;cursor:pointer}
